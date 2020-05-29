@@ -32,7 +32,6 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        echo set var secret "$ENVIRONMENT".
-        print new var "$ENVIRONMENT"
+        echo set var secret $ENVIRONMENT/path/to.
       env:
         ENVIRONMENT: ${{ secrets.ENVIRONMENT }}
